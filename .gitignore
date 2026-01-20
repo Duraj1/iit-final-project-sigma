@@ -1,0 +1,37 @@
+# Node.js dependencies
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Runtime / build artifacts
+/dist/
+/build/
+/tmp/
+/logs/
+/*.log
+
+# n8n data (if you keep SQLite or other local data in repo root)
+.n8n/
+database.sqlite
+*.db
+
+# Docker and compose artifacts
+docker-compose.override.yml
+docker-compose.*.yml
+Dockerfile*
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# lock files (optional if committed)
+/pnpm-lock.yaml
+yarn.lock
+package-lock.json

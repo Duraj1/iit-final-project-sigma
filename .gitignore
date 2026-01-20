@@ -18,11 +18,6 @@
 database.sqlite
 *.db
 
-# Docker and compose artifacts
-docker-compose.override.yml
-docker-compose.*.yml
-Dockerfile*
-
 # OS and editor junk
 .DS_Store
 Thumbs.db

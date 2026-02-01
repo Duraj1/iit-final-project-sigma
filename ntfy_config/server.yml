@@ -1,4 +1,0 @@
-upstream-base-url: "https://ntfy.sh"
-behind-proxy: true
-auth-default-access: "read-write"
-base-url: "http://localhost:8080"
